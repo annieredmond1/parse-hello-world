@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+.heading {
+	margin-top: 100px;
+}
+
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.delete-header {
+	margin-top: 50px;
+}
+.post-list {
+ 	margin-top: 80px;
+ }

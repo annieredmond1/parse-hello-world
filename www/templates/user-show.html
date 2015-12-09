@@ -1,0 +1,30 @@
+
+<ion-view title={{user.get('username')}}>
+    <ion-content>
+
+      
+ 	
+		<form>
+		    <ion-list>
+		        <label class="item item-input">
+		            <span class="input-label">New Share</span>
+		            <input type="text" placeholder="How are you feeling?" ng-model="data.content" required autofocus >
+		        </label>
+		        
+		    </ion-list>
+		    <button class="button button-stable button-block" ng-click="newPost()">Save</button>
+		</form>
+		<a href="/#/user/posts" class="button button-full button-positive">
+		View Your Shares
+		</a>
+		<div ng-show="giphyPost" class="card">
+		<h2>Great job posting!</h2>
+		  <div class="item item-image">
+		     <img ng-src="{{giphyImage}}">
+		   </div>
+		</div>
+
+
+    </ion-content>
+</ion-view>
+

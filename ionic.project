@@ -1,0 +1,12 @@
+{
+  "name": "ParseHelloWorld",
+  "app_id": "efa5554d",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
